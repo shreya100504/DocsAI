@@ -9,31 +9,21 @@ Students often rely on static documents such as lecture notes, textbooks, and sl
 
 The application automatically:
 
-Extracts text from multiple document formats
-
-Analyzes images and diagrams
-
-Creates embeddings and vector representations
-
-Enables intelligent question answering
-
-Generates structured study plans
+- Extracts text from multiple document formats
+- Analyzes images and diagrams
+- Creates embeddings and vector representations
+- Enables intelligent question answering
+- Generates structured study plans
 
 This allows students to quickly find answers and prepare for exams more efficiently.
 
 ## Key Features
 - Multi-Format Document Support
-
 - Upload and analyze multiple types of files including:
-
 - PDF documents
-
 - Word files (.docx)
-
 - Excel spreadsheets (.xlsx)
-
 - PowerPoint presentations (.pptx)
-
 - Images (.jpg, .png)
 
 The system extracts text and image information from these files for further processing.
@@ -45,11 +35,8 @@ Users can ask questions about uploaded documents and receive context-aware answe
 The chatbot supports multiple response styles including:
 
 - Explanatory answers
-
 - Concise summaries
-
 - Cheat-sheet style responses
-
 - Exam-ready answers
 
 ## Automatic Study Plan Generation
@@ -69,11 +56,8 @@ This allows the chatbot to retrieve the most relevant information when answering
 The system processes uploaded documents asynchronously and displays real-time progress updates during:
 
 - document parsing
-
 - text extraction
-
 - embedding creation
-
 - study plan generation
 
 ## System Architecture
@@ -106,36 +90,25 @@ AI Chatbot + Study Plan Generator
 ### Backend
 
 - Python
-
 - Flask
-
 - LangChain
-
 - Google Generative AI (Gemini)
-
 - FAISS Vector Database
 
 ### Frontend
 
 - HTML
-
 - CSS
-
 - JavaScript
 
 ### NLP & Document Processing
 
 - PyPDF2
-
 - PyMuPDF
-
 - python-docx
-
 - pandas
-
 - python-pptx
-
--Pillow
+- Pillow
 
 The required Python libraries are defined in the project dependencies file.
 
@@ -196,13 +169,8 @@ http://127.0.0.1:5000
 ## Example Workflow
 
 1. Upload study materials such as lecture notes or slides.
-
 2. Click Process Documents.
-
 3. The system extracts content and builds a vector knowledge base.
-
 4. A study plan checklist is generated automatically.
-
 5. Ask questions about the documents through the chatbot.
-
 6. Export the chat conversation if needed.
