@@ -44,13 +44,13 @@ Users can ask questions about uploaded documents and receive context-aware answe
 
 The chatbot supports multiple response styles including:
 
-Explanatory answers
+- Explanatory answers
 
-Concise summaries
+- Concise summaries
 
-Cheat-sheet style responses
+- Cheat-sheet style responses
 
-Exam-ready answers
+- Exam-ready answers
 
 ## Automatic Study Plan Generation
 
@@ -68,15 +68,17 @@ This allows the chatbot to retrieve the most relevant information when answering
 
 The system processes uploaded documents asynchronously and displays real-time progress updates during:
 
-document parsing
+- document parsing
 
-text extraction
+- text extraction
 
-embedding creation
+- embedding creation
 
-study plan generation
+- study plan generation
 
 ## System Architecture
+
+```
 User Uploads Documents
         │
         ▼
@@ -98,45 +100,48 @@ Retrieval-Augmented Generation
         │
         ▼
 AI Chatbot + Study Plan Generator
+```
 
 ## Tech Stack
 ### Backend
 
-Python
+- Python
 
-Flask
+- Flask
 
-LangChain
+- LangChain
 
-Google Generative AI (Gemini)
+- Google Generative AI (Gemini)
 
-FAISS Vector Database
+- FAISS Vector Database
 
 ### Frontend
 
-HTML
+- HTML
 
-CSS
+- CSS
 
-JavaScript
+- JavaScript
 
 ### NLP & Document Processing
 
-PyPDF2
+- PyPDF2
 
-PyMuPDF
+- PyMuPDF
 
-python-docx
+- python-docx
 
-pandas
+- pandas
 
-python-pptx
+- python-pptx
 
-Pillow
+-Pillow
 
 The required Python libraries are defined in the project dependencies file.
 
 ## Project Structure
+
+```
 DocsAI
 │
 ├── document-chat-flask-app.py
@@ -148,6 +153,7 @@ DocsAI
 │
 ├── uploads/          # Uploaded documents
 └── vector_stores/    # FAISS vector database
+```
 
 ## Installation
 ### 1. Clone the Repository
